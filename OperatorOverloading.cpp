@@ -9,6 +9,8 @@ class Date{
 		Date(int dayArg,int monthArg,int yearArg):day{dayArg},month{monthArg},year{yearArg} {
 				
 		}
+		void operator++{}
+		void operator--{}
 		void printDate(){
 		cout<<this->day<<"-"<<this->month<<"-"<<this->year<<endl;
 		}
