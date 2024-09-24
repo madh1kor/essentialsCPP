@@ -53,6 +53,9 @@ string phone="7894561320";
 
  BankCustomer bc1(name,aadhar,pan,email,phone);
  bc1.printCustomerInfo();
-    
-    return 0;
+ cout<<endl;
+ BankCustomer bc2(name,aadhar,pan);
+ bc2.printCustomerInfo();
+
+return 0;
 }
